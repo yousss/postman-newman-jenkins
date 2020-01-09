@@ -10,6 +10,6 @@
 	},
 	"author": "Yous Yoeun",
 	"dependencies": {
-		"newman" : "^4.12"
+		"newman" : "^4.5.7"
 	}
 }
