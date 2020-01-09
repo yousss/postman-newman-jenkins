@@ -6,7 +6,7 @@
 		"test": "tests"
 	},
 	"scripts": {
-		"api-tests-production": "newman run tests/placeholder.com.postman_collection.json --reporters cli, junit --reporter-junit-export export=tests/newman.xml"
+		"api-tests-production": "newman run tests/placeholder.com.postman_collection.json -r junit --reporter-junit-export './tests/newman.xml' -n 2"
 	},
 	"author": "Yous Yoeun",
 	"dependencies": {
