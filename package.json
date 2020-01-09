@@ -1,8 +1,8 @@
 {
-	"name" : "postman-newman-jenkins",
+	"name": "postman-newman-jenkins",
 	"version": "1.0.0",
-	"description" : "Project fro storing Postman tests",
-	"directories" : {
+	"description": "Project fro storing Postman tests",
+	"directories": {
 		"test": "tests"
 	},
 	"scripts": {
@@ -10,6 +10,7 @@
 	},
 	"author": "Yous Yoeun",
 	"dependencies": {
-		"newman" : "^4.5.7"
+		"newman": "^4.5.7",
+		"newman-reporter-junitfull": "^1.1.1"
 	}
 }
